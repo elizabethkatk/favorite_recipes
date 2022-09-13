@@ -60,6 +60,12 @@ li {
   background-size: cover;
   font-size: 64px;
   font-weight: bolder;
+  transition: transform 1s;
+  border-radius: 4px;
+}
+
+li:hover {
+  transform: scale(1.2);
 }
 
 .soups {

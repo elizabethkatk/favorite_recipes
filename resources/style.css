@@ -1,13 +1,24 @@
+:root {
+  --primary-color: #7fa99b;
+  --secondary-color: #394a51;
+  --accent-color: fdc57b;
+}
+
 /* Navigation Bar */
 
 .logo-link {
   text-decoration: none;
+  color: #394a51;
+}
+
+logo-link:visited {
+  color: #394a51;
 }
 
 .logo {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 80px;
-  background: darkmagenta;
+  background: #fdc57b;
   border-radius: 50%;
   padding: 10px 15px 10px 10px;
 }
@@ -20,11 +31,19 @@
   padding: 0 10px 10px 18px;
 }
 
+/*Main */
+
+body {
+  background: #7fa99b;
+}
+
 h1 {
-  font-family: "Lucida Calligraphy";
+  font-family: Gwendolyn;
   text-align: center;
-  padding-bottom: 30px;
-  font-size: 64px;
+  padding-bottom: 20px;
+  font-size: 96px;
+  color: #394a51;
+  margin-bottom: 0;
 }
 
 ul {
@@ -33,13 +52,13 @@ ul {
   justify-content: space-around;
   margin: 0 auto;
   padding-top: 50px;
-  font-family: "Lucida Calligraphy";
+  font-family: Gwendolyn;
 }
 
 li {
   padding: 80px;
   background-size: cover;
-  font-size: 48px;
+  font-size: 64px;
   font-weight: bolder;
 }
 

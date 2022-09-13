@@ -21,6 +21,9 @@ logo-link:visited {
   background: #fdc57b;
   border-radius: 50%;
   padding: 10px 15px 10px 10px;
+  margin: 8px;
+  position: relative;
+  top: 8px;
 }
 
 .recipes {
@@ -33,8 +36,22 @@ logo-link:visited {
 
 /*Main */
 
-body {
-  background: #7fa99b;
+.homepage {
+  position: relative;
+  width: 100%;
+}
+
+.homepage::after {
+  pointer-events: none;
+  content: "";
+  background-image: url("/resources/images/cooking.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
 }
 
 h1 {
@@ -51,8 +68,10 @@ ul {
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
-  padding-top: 50px;
   font-family: Gwendolyn;
+  background-color: var(--primary-color);
+  padding: 20px;
+  border-radius: 4px;
 }
 
 li {
@@ -66,6 +85,10 @@ li {
 
 li:hover {
   transform: scale(1.2);
+}
+
+.menu {
+  padding: 20px;
 }
 
 .soups {

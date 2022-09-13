@@ -21,9 +21,10 @@
 }
 
 h1 {
-  font-family: "Yeseva One", Georgia, "Times New Roman", Times, serif;
+  font-family: "Lucida Calligraphy";
   text-align: center;
   padding-bottom: 30px;
+  font-size: 64px;
 }
 
 ul {
@@ -32,4 +33,36 @@ ul {
   justify-content: space-around;
   margin: 0 auto;
   padding-top: 50px;
+  font-family: "Lucida Calligraphy";
+}
+
+li {
+  padding: 80px;
+  background-size: cover;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.soups {
+  background-image: url("/resources/images/soup.webp");
+}
+
+.pastas {
+  background-image: url("/resources/images/pasta.jpg");
+  padding: 70px;
+}
+
+.desserts {
+  background-image: url("/resources/images/cookies.jpg");
+  color: white;
+  padding: 50px;
+}
+
+.mainpage-links {
+  color: black;
+  text-decoration: none;
+}
+
+#desserts {
+  color: rgb(248, 240, 240);
 }
